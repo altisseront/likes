@@ -25,3 +25,6 @@ function addLike3() {
     console.log(value3);
     document.getElementById('likes3').innerHTML = value3;
 }
+function darkSlateGrey() {
+    
+}
