@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+a {
+    color: rgb(25, 163, 255);
+}
+
+.main {
+    margin: 0 200px;
+    display: flex;
+    justify-content: flex-start;
+    height: 800px;
+    gap: 30px;
+}
+.col1 {
+    flex: 1;
+}
+.col2 {
+    flex: 3;
+}
+header {
+    margin: 0 200px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 20px;
+    font-size: xx-large;
+}
+/* left side */
+
+.title {
+    font-size: 30pt;
+    margin: 15px auto 10px auto;
+    text-align: center;
+}
+.profile {
+    height: 350px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    border: 4px solid darkslategrey;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.profilepic {
+    width: 30%;
+    margin: 40px 35%;
+}
+.addanavatar {
+    font-size: 20pt;
+    margin: 0 0;
+}
+.anchorcontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+.namecontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+.name {
+    font-size: 30pt;
+}
+
+/* right side */
+
+.feed {
+    width: 90%;
+    margin: 10px 0 10px auto;
+    height: 220px;
+    border: 4px solid darkslategrey;
+    overflow: hidden;
+}
+.topfeed {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 20px 30px 0px 30px;
+}
+.leftside {
+    display: flex;
+    align-items: center;
+}
+.likecounter {
+    font-size: 17pt;
+    margin-right: 30px;
+}
+.likebutton1 {
+    font-size: 17pt;
+    padding: 10px 20px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+.likebutton2 {
+    font-size: 17pt;
+    padding: 10px 20px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+.likebutton3 {
+    font-size: 17pt;
+    padding: 10px 20px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+.bottomfeed {
+    font-size: 18pt;
+    padding: 0px 50px 40px 50px;
+
+}
